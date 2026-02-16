@@ -1,0 +1,12 @@
+{
+  "name": "Kogus  (vana)",
+  "expression": "SUM('eolerex fin_unit_card_sale'[qty])",
+  "formatString": "#,0",
+  "lineageTag": "be6a7071-72ac-4f52-95d6-cbb1496841e0",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

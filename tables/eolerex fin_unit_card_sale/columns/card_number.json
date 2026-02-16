@@ -1,0 +1,13 @@
+{
+  "name": "card_number",
+  "dataType": "string",
+  "sourceColumn": "card_number",
+  "lineageTag": "a093a487-6625-4613-bc9b-2e22145a938d",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

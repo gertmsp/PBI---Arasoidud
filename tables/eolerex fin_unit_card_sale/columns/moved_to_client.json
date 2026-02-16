@@ -1,0 +1,14 @@
+{
+  "name": "moved_to_client",
+  "dataType": "int64",
+  "sourceColumn": "moved_to_client",
+  "formatString": "0",
+  "lineageTag": "406302f1-9360-4215-bb42-8f17e9c1caa9",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

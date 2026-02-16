@@ -1,0 +1,13 @@
+{
+  "name": "accnr",
+  "dataType": "string",
+  "sourceColumn": "accnr",
+  "lineageTag": "0da5081c-dc7a-4c62-be35-26f7864901c9",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

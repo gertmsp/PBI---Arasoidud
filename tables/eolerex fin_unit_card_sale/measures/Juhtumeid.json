@@ -1,0 +1,6 @@
+{
+  "name": "Juhtumeid",
+  "expression": "DISTINCTCOUNT('eolerex fin_unit_card_sale'[invoice])",
+  "formatString": "0",
+  "lineageTag": "c2dc30cc-928d-4f43-9802-f4a299851b0c"
+}

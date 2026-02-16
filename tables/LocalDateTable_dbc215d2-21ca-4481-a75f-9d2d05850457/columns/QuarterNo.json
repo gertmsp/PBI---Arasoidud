@@ -1,0 +1,20 @@
+{
+  "type": "calculated",
+  "name": "QuarterNo",
+  "dataType": "int64",
+  "isHidden": true,
+  "expression": "INT(([MonthNo] + 2) / 3)",
+  "lineageTag": "459bc8c4-09a3-4af2-b80d-78449d95c4d0",
+  "dataCategory": "QuarterOfYear",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "TemplateId",
+      "value": "QuarterNumber"
+    }
+  ]
+}

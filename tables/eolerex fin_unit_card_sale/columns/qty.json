@@ -1,0 +1,17 @@
+{
+  "name": "qty",
+  "dataType": "double",
+  "sourceColumn": "qty",
+  "lineageTag": "350c083e-08d2-47c0-9110-83a731c5887b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

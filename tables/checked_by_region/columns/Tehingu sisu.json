@@ -1,0 +1,13 @@
+{
+  "name": "Tehingu sisu",
+  "dataType": "string",
+  "sourceColumn": "Tehingu sisu",
+  "lineageTag": "f4e8a21c-4bea-4b67-8f0d-a88806a3b735",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "type": "calculated",
+  "name": "Is_Original_Transaction",
+  "dataType": "boolean",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "IF(",
+    "    ISBLANK([connected_to_invoice]),",
+    "    BLANK(),",
+    "    [invoice] = [connected_to_invoice]",
+    ")",
+    ""
+  ],
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "ab2fce8f-1c14-4b8a-b480-4657f0548e96",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "amount",
+  "dataType": "double",
+  "sourceColumn": "amount",
+  "formatString": "#,0.00",
+  "lineageTag": "07cb29ba-c0de-4cd1-89d0-513e66e85da6",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

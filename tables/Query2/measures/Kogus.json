@@ -1,0 +1,12 @@
+{
+  "name": "Kogus",
+  "expression": "SUM(Query2[qty])",
+  "formatString": "#,0",
+  "lineageTag": "46dd4211-7bf4-4283-a73d-734ef1e431c4",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

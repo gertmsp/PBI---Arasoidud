@@ -1,0 +1,25 @@
+{
+  "name": "created",
+  "dataType": "dateTime",
+  "sourceColumn": "created",
+  "formatString": "General Date",
+  "lineageTag": "e5af56e2-54ce-4cdd-8946-44c7c837b37e",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "6b9ec3c2-7a85-458c-8e57-bf81a373c94c",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_6399a443-49f5-4e77-aff0-918d909b5442",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

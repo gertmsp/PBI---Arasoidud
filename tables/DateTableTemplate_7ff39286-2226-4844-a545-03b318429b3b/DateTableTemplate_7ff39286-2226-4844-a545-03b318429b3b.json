@@ -1,0 +1,16 @@
+{
+  "name": "DateTableTemplate_7ff39286-2226-4844-a545-03b318429b3b",
+  "isHidden": true,
+  "isPrivate": true,
+  "lineageTag": "881cece4-8768-45c2-8480-74fe932a2d0c",
+  "annotations": [
+    {
+      "name": "__PBI_TemplateDateTable",
+      "value": "true"
+    },
+    {
+      "name": "DefaultItem",
+      "value": "DateHierarchy"
+    }
+  ]
+}

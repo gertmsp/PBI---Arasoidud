@@ -1,0 +1,14 @@
+{
+  "name": "Avaldus tehtud",
+  "expression": [
+    "",
+    "",
+    "CALCULATE(",
+    "    SELECTEDMEASURE(),",
+    "    Query2[transaction_sum] >= 0,",
+    "    Query2[statement_no] <> BLANK(),",
+    "    Query2[accnr] <> \"V999\"",
+    ")"
+  ],
+  "ordinal": 2
+}

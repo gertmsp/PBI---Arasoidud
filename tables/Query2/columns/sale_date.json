@@ -1,0 +1,25 @@
+{
+  "name": "sale_date",
+  "dataType": "dateTime",
+  "sourceColumn": "sale_date",
+  "formatString": "General Date",
+  "lineageTag": "adc43918-3967-4b2c-9c19-cd38a555b08d",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "ac6162e1-7778-4870-93dc-b91ad4f5da9e",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_1eb80bc5-bb3d-4d2d-ae74-be856d517ac1",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

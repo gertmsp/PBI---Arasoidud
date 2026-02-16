@@ -1,0 +1,12 @@
+{
+  "name": "Summa",
+  "expression": "SUM(Query2[transaction_sum])",
+  "formatString": "#,0",
+  "lineageTag": "e7fc9715-3ffb-452c-9d27-856621e3eb19",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

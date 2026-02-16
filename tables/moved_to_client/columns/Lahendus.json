@@ -1,0 +1,13 @@
+{
+  "name": "Lahendus",
+  "dataType": "string",
+  "sourceColumn": "Lahendus",
+  "lineageTag": "54f4e786-539c-40a5-95c2-4b39a3929ce7",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

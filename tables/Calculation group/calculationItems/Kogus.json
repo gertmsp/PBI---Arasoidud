@@ -1,0 +1,11 @@
+{
+  "name": "Kogus",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SELECTEDMEASURE(),",
+    "    Query2[transaction_sum] >= 0",
+    ")"
+  ],
+  "ordinal": 0
+}

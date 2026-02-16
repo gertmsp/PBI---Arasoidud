@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_dbc215d2-21ca-4481-a75f-9d2d05850457",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('Query2'[sale_datetime])), 1, 1), Date(Year(MAX('Query2'[sale_datetime])), 12, 31))"
+  }
+}

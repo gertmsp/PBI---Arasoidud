@@ -1,0 +1,14 @@
+{
+  "name": "moved_to_client",
+  "lineageTag": "7abcdf13-3bdf-4eae-9bfe-e4cbc553457b",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

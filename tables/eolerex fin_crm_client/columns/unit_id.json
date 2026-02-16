@@ -1,0 +1,14 @@
+{
+  "name": "unit_id",
+  "dataType": "int64",
+  "sourceColumn": "unit_id",
+  "formatString": "0",
+  "lineageTag": "159b5450-fcdc-45cc-b0db-22aaf0d6ae51",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

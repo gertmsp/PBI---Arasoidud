@@ -1,0 +1,17 @@
+{
+  "name": "transaction_sum",
+  "dataType": "double",
+  "sourceColumn": "transaction_sum",
+  "lineageTag": "8bbc1946-5456-4f7b-9d52-340146857538",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

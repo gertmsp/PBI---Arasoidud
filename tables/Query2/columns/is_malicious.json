@@ -1,0 +1,14 @@
+{
+  "name": "is_malicious",
+  "dataType": "int64",
+  "sourceColumn": "is_malicious",
+  "formatString": "0",
+  "lineageTag": "3fad7c17-478f-4ba9-bce1-c40385a8f832",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

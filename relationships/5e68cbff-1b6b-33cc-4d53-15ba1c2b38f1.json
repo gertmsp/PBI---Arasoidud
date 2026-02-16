@@ -1,0 +1,7 @@
+{
+  "name": "5e68cbff-1b6b-33cc-4d53-15ba1c2b38f1",
+  "fromTable": "eolerex fin_unit_card_sale",
+  "fromColumn": "moved_to_client",
+  "toTable": "moved_to_client",
+  "toColumn": "moved_to_clientmoved_to_client"
+}

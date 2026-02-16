@@ -1,0 +1,14 @@
+{
+  "name": "is_offense",
+  "dataType": "boolean",
+  "sourceColumn": "is_offense",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "31cc766c-8afd-423d-936d-30df677db9f9",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

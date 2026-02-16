@@ -1,0 +1,8 @@
+{
+  "name": "a0b0c941-5efe-4039-b404-45d565b2dfe8",
+  "fromTable": "eolerex fin_unit_card_sale",
+  "fromColumn": "changed",
+  "toTable": "LocalDateTable_5279c4ca-f258-4918-9cba-10e88102ff51",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

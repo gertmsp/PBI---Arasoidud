@@ -1,0 +1,13 @@
+{
+  "name": "noom_comment",
+  "dataType": "string",
+  "sourceColumn": "noom_comment",
+  "lineageTag": "4206c8db-c135-4933-b2d3-9f5c2d68be26",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "connected_to_invoice",
+  "dataType": "string",
+  "sourceColumn": "connected_to_invoice",
+  "lineageTag": "71ea3318-1d83-4b5e-8861-85a2b37c1498",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

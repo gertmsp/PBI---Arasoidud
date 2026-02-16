@@ -1,0 +1,25 @@
+{
+  "name": "changed",
+  "dataType": "dateTime",
+  "sourceColumn": "changed",
+  "formatString": "General Date",
+  "lineageTag": "29259e18-0cc3-49b6-ad86-afe6b305f260",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "a0b0c941-5efe-4039-b404-45d565b2dfe8",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_5279c4ca-f258-4918-9cba-10e88102ff51",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

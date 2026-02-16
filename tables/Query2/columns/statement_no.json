@@ -1,0 +1,13 @@
+{
+  "name": "statement_no",
+  "dataType": "string",
+  "sourceColumn": "statement_no",
+  "lineageTag": "33dbae04-f762-4e22-a4d8-b6b828889112",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "checked_by_region",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"LY05CsMwFESvIlS7CNlb9XETTBrhYsAfR5HlgJYb6Eru0v2LRVLSzbwHM1rLnexkz5nzXfVqUHLstNxXllLLh5JveNI6wZlAS4PHAh/wcwqtnkrl7BF4M7GRcyEDEBdyZiXxgvDk3utPXuo8bCAL+MmIyJufqanrXzlECMufWB/GLw==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [checked_by_region = _t, Kirjeldus = _t]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"checked_by_region\", Int64.Type}, {\"Kirjeldus\", type text}}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Kirjeldus\", \"Tehingu sisu\"}})",
+      "in",
+      "    #\"Renamed Columns\""
+    ]
+  }
+}

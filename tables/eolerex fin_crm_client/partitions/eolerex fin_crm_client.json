@@ -1,0 +1,16 @@
+{
+  "name": "eolerex fin_crm_client",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = MySQL.Database(\"sql.olerex.ee\", \"eolerex\", [ReturnSingleDatabase=true]),",
+      "    eolerex_fin_crm_client = Source{[Schema=\"eolerex\",Item=\"fin_crm_client\"]}[Data],",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(eolerex_fin_crm_client,{\"client_id\", \"accnr\", \"type\", \"name\", \"unit_id\"}),",
+      "    #\"Filtered Rows\" = Table.SelectRows(#\"Removed Other Columns\", each ([accnr] = \"v999\"))",
+      "in",
+      "    #\"Filtered Rows\""
+    ]
+  }
+}

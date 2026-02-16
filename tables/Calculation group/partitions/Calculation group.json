@@ -1,0 +1,7 @@
+{
+  "name": "Calculation group",
+  "mode": "import",
+  "source": {
+    "type": "calculationGroup"
+  }
+}

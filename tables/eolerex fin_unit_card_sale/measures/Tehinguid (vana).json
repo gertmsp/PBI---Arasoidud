@@ -1,0 +1,6 @@
+{
+  "name": "Tehinguid (vana)",
+  "expression": "DISTINCTCOUNT('eolerex fin_unit_card_sale'[invoice])",
+  "formatString": "0",
+  "lineageTag": "4fd2c663-87f7-4f3d-a422-2963d874ddc6"
+}

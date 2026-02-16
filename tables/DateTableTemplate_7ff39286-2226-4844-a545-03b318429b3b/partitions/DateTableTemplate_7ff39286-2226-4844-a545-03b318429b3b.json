@@ -1,0 +1,8 @@
+{
+  "name": "DateTableTemplate_7ff39286-2226-4844-a545-03b318429b3b",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(2015,1,1), Date(2015,1,1))"
+  }
+}

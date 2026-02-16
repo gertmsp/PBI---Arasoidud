@@ -1,0 +1,13 @@
+{
+  "name": "client_name",
+  "dataType": "string",
+  "sourceColumn": "client_name",
+  "lineageTag": "037517bd-a2ca-45cd-a532-c8c1bc475110",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Query2",
+  "lineageTag": "8ef56bec-7034-4ee7-9342-fe3412e4ba55",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

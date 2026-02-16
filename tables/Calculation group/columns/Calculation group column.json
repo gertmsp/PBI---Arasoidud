@@ -1,0 +1,14 @@
+{
+  "name": "Calculation group column",
+  "dataType": "string",
+  "sourceColumn": "Name",
+  "sortByColumn": "Ordinal",
+  "lineageTag": "c994ce83-eaff-4b1c-b8c0-68c478aeab17",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

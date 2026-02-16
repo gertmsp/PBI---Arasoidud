@@ -1,0 +1,17 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Column",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Column]",
+  "formatString": "0",
+  "lineageTag": "d38f839b-9be0-4012-937b-9d8a50d5036d",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

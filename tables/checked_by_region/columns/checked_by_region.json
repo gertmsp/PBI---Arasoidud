@@ -1,0 +1,14 @@
+{
+  "name": "checked_by_region",
+  "dataType": "int64",
+  "sourceColumn": "checked_by_region",
+  "formatString": "0",
+  "lineageTag": "07d35443-a026-4585-bfe1-b9723ebd78d4",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

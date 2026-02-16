@@ -1,0 +1,21 @@
+{
+  "name": "Raha laekumata",
+  "expression": [
+    "",
+    "IF(",
+    "    SELECTEDVALUE('Query2'[checked_by_region]) = 6, -- kui \"Taatlemine ja remont\", siis on tulemus tühi (blank)",
+    "    BLANK(),",
+    "    CALCULATE(",
+    "        SELECTEDMEASURE(),",
+    "        Query2[transaction_sum] >= 0,",
+    "        Query2[accnr] <> \"V999\",",
+    "        OR(",
+    "            Query2[moved_to_client] = 6, -- Süütegu",
+    "            Query2[moved_to_client] = 0  -- LAHENDUS PUUDU",
+    "        )",
+    "    )",
+    ")",
+    ""
+  ],
+  "ordinal": 1
+}

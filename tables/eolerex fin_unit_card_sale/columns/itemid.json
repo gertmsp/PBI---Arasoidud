@@ -1,0 +1,13 @@
+{
+  "name": "itemid",
+  "dataType": "string",
+  "sourceColumn": "itemid",
+  "lineageTag": "c697fd21-385c-49c1-a7d2-e3ac7e7ead53",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "price",
+  "dataType": "double",
+  "sourceColumn": "price",
+  "lineageTag": "8d98238d-8fab-4f95-9573-ac22c077d5ee",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    },
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

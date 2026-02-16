@@ -1,0 +1,14 @@
+{
+  "name": "eolerex fin_crm_client",
+  "lineageTag": "b4855cbf-3b07-41c6-b432-65f0c3d9f844",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

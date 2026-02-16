@@ -1,0 +1,12 @@
+{
+  "name": "Ärasõidud",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT('eolerex fin_unit_card_sale'[invoice]),",
+    "    checked_by_region[Tehingu sisu] = \"Ärasõit\",",
+    "    'eolerex fin_unit_card_sale'[amount] >= 0)"
+  ],
+  "formatString": "0",
+  "lineageTag": "161c1cc4-5cbe-4edf-9b58-65da7592b023"
+}

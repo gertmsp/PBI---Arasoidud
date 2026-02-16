@@ -1,0 +1,7 @@
+{
+  "name": "AutoDetected_8bc9b03c-cedf-4e58-bade-b6f5c4d7228c",
+  "fromTable": "eolerex fin_unit_card_sale",
+  "fromColumn": "checked_by_region",
+  "toTable": "checked_by_region",
+  "toColumn": "checked_by_region"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "connected_transactions",
+  "dataType": "string",
+  "sourceColumn": "connected_transactions",
+  "lineageTag": "4f9a9b3b-3d63-40ec-a405-ff907756e774",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

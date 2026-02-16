@@ -1,0 +1,20 @@
+{
+  "type": "calculated",
+  "name": "Year",
+  "dataType": "int64",
+  "isHidden": true,
+  "expression": "YEAR([Date])",
+  "lineageTag": "589ba95c-3cee-4902-b35a-098eac29df0a",
+  "dataCategory": "Years",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "TemplateId",
+      "value": "Year"
+    }
+  ]
+}

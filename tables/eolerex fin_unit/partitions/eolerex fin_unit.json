@@ -1,0 +1,16 @@
+{
+  "name": "eolerex fin_unit",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = MySQL.Database(\"sql.olerex.ee\", \"eolerex\", [ReturnSingleDatabase=true]),",
+      "    eolerex_fin_unit = Source{[Schema=\"eolerex\",Item=\"fin_unit\"]}[Data],",
+      "    #\"Filtered Rows\" = Table.SelectRows(eolerex_fin_unit, each ([chain] = \"Olerex\")),",
+      "    #\"Removed Other Columns\" = Table.SelectColumns(#\"Filtered Rows\",{\"unit_id\", \"noom_id\", \"group_id\", \"name\", \"name_short\"})",
+      "in",
+      "    #\"Removed Other Columns\""
+    ]
+  }
+}

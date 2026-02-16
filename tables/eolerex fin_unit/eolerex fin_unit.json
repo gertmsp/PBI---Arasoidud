@@ -1,0 +1,14 @@
+{
+  "name": "eolerex fin_unit",
+  "lineageTag": "561ce030-cf38-4f77-a9e9-33c714f673cb",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

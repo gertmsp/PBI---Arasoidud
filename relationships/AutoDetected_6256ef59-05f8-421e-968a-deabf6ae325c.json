@@ -1,0 +1,7 @@
+{
+  "name": "AutoDetected_6256ef59-05f8-421e-968a-deabf6ae325c",
+  "fromTable": "eolerex fin_unit_card_sale",
+  "fromColumn": "unit_id",
+  "toTable": "eolerex fin_unit",
+  "toColumn": "unit_id"
+}

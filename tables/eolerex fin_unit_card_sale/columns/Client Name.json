@@ -1,0 +1,19 @@
+{
+  "type": "calculated",
+  "name": "Client Name",
+  "dataType": "string",
+  "isDataTypeInferred": true,
+  "expression": [
+    "",
+    "RELATED('eolerex fin_crm_client'[name])",
+    ""
+  ],
+  "lineageTag": "d582849d-f6c5-4e8b-a423-aa0d6c24d9ee",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

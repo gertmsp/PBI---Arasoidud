@@ -1,0 +1,8 @@
+{
+  "name": "ac6162e1-7778-4870-93dc-b91ad4f5da9e",
+  "fromTable": "Query2",
+  "fromColumn": "sale_date",
+  "toTable": "LocalDateTable_1eb80bc5-bb3d-4d2d-ae74-be856d517ac1",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Summa (vana)",
+  "expression": "SUM('eolerex fin_unit_card_sale'[amount])",
+  "formatString": "#,0",
+  "lineageTag": "3ac0285e-0689-475c-be0c-309e2b39188e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isDecimal\":true}"
+    }
+  ]
+}

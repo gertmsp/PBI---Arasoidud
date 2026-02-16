@@ -1,0 +1,14 @@
+{
+  "name": "sent_to_security_dep",
+  "dataType": "boolean",
+  "sourceColumn": "sent_to_security_dep",
+  "formatString": "\"TRUE\";\"TRUE\";\"FALSE\"",
+  "lineageTag": "7cf891d2-bc74-41c9-a69e-2eecbd2388c7",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

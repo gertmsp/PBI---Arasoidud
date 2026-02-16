@@ -1,0 +1,6 @@
+{
+  "name": "Tehinguid",
+  "expression": "DISTINCTCOUNT(Query2[invoice])",
+  "formatString": "#,0",
+  "lineageTag": "63e3af7d-f086-4f0d-a757-23bebccf1f58"
+}

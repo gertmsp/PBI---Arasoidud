@@ -1,0 +1,7 @@
+{
+  "name": "1dbd4322-20ab-5db3-500a-1d25eb6ac570",
+  "fromTable": "Query2",
+  "fromColumn": "moved_to_client",
+  "toTable": "moved_to_client",
+  "toColumn": "moved_to_clientmoved_to_client"
+}

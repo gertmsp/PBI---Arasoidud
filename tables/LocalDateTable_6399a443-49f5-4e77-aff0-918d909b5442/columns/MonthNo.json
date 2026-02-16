@@ -1,0 +1,20 @@
+{
+  "type": "calculated",
+  "name": "MonthNo",
+  "dataType": "int64",
+  "isHidden": true,
+  "expression": "MONTH([Date])",
+  "lineageTag": "39d908de-e79e-47fd-9ac2-55af0ac36c96",
+  "dataCategory": "MonthOfYear",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "User"
+    },
+    {
+      "name": "TemplateId",
+      "value": "MonthNumber"
+    }
+  ]
+}

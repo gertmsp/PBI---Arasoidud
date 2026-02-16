@@ -1,0 +1,8 @@
+{
+  "name": "Moodikud",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "0"
+  }
+}

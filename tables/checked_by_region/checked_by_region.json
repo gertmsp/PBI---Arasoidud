@@ -1,0 +1,14 @@
+{
+  "name": "checked_by_region",
+  "lineageTag": "dcfea103-273d-46da-a049-a55bf0e11087",
+  "annotations": [
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    },
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    }
+  ]
+}

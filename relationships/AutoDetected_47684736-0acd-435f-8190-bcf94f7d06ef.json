@@ -1,0 +1,7 @@
+{
+  "name": "AutoDetected_47684736-0acd-435f-8190-bcf94f7d06ef",
+  "fromTable": "eolerex fin_unit_card_sale",
+  "fromColumn": "client_id",
+  "toTable": "eolerex fin_crm_client",
+  "toColumn": "client_id"
+}

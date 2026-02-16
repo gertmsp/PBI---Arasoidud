@@ -1,0 +1,14 @@
+{
+  "name": "group_id",
+  "dataType": "int64",
+  "sourceColumn": "group_id",
+  "formatString": "0",
+  "lineageTag": "470e385e-10cd-4a6b-bd12-590e2628c89e",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "name": "eolerex fin_unit_card_sale",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = MySQL.Database(\"sql.olerex.ee\", \"eolerex\", [ReturnSingleDatabase=true]),",
+      "    eolerex_fin_unit_card_sale = Source{[Schema=\"eolerex\",Item=\"fin_unit_card_sale\"]}[Data],",
+      "    #\"Filtered Rows\" = Table.SelectRows(eolerex_fin_unit_card_sale, each [sale_date] >= #date(2024, 1, 1))",
+      "in",
+      "    #\"Filtered Rows\""
+    ]
+  }
+}

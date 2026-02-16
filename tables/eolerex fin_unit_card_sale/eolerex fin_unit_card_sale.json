@@ -1,0 +1,14 @@
+{
+  "name": "eolerex fin_unit_card_sale",
+  "lineageTag": "4dcf88bd-ab9f-4cb2-9729-252d192b64ab",
+  "annotations": [
+    {
+      "name": "PBI_NavigationStepName",
+      "value": "Navigation"
+    },
+    {
+      "name": "PBI_ResultType",
+      "value": "Table"
+    }
+  ]
+}

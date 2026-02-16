@@ -1,0 +1,15 @@
+{
+  "name": "moved_to_client",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = Table.FromRows(Json.Document(Binary.Decompress(Binary.FromText(\"i45WMlDSUfJx9HD1cwkNVggIDXUJVYrViVYyAgqHpGZk5qUrlBzeWlySWlKaopCdk5mal5KpkJ2YWJSSmZMKVmkMUplYXJqkEJKYl52TWAwWNQGKHp6Tk5qdmJeSmp4IFjOFqyxJzSxOLVYoQdJgBpQMPrzn8J6S1PRSpdhYAA==\", BinaryEncoding.Base64), Compression.Deflate)), let _t = ((type nullable text) meta [Serialized.Text = true]) in type table [#\"moved_to_client#(lf)moved_to_client#(lf)\" = _t, Kirjeldus = _t]),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(Source,{{\"moved_to_client#(lf)moved_to_client#(lf)\", Int64.Type}, {\"Kirjeldus\", type text}}),",
+      "    #\"Renamed Columns\" = Table.RenameColumns(#\"Changed Type\",{{\"Kirjeldus\", \"Lahendus\"}})",
+      "in",
+      "    #\"Renamed Columns\""
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "LocalDateTable_4268813f-8a87-4d22-bc77-e7fe21ea2ced",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": "Calendar(Date(Year(MIN('eolerex fin_unit_card_sale'[sale_date])), 1, 1), Date(Year(MAX('eolerex fin_unit_card_sale'[sale_date])), 12, 31))"
+  }
+}

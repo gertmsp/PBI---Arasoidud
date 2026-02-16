@@ -1,0 +1,14 @@
+{
+  "name": "noom_id",
+  "dataType": "int64",
+  "sourceColumn": "noom_id",
+  "formatString": "0",
+  "lineageTag": "16ef1d0b-a1ae-4758-9546-47e5b313293f",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
