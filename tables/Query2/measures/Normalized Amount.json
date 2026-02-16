@@ -1,0 +1,6 @@
+{
+  "name": "Normalized Amount",
+  "expression": "VAR MaxAmount = MAXX(ALLSELECTED(Query2[invoice]), CALCULATE([Unpaid Amount])) RETURN DIVIDE([Unpaid Amount], MaxAmount)",
+  "formatString": "0.00",
+  "lineageTag": "0db389d9-3e77-4630-8304-534154d87a3f"
+}

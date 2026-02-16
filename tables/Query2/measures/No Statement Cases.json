@@ -1,0 +1,6 @@
+{
+  "name": "No Statement Cases",
+  "expression": "CALCULATE([Unpaid Cases], FILTER(Query2, ISBLANK(Query2[statement_no]) || Query2[statement_no] = \"\"))",
+  "formatString": "#,0",
+  "lineageTag": "389a9aa0-1a88-464c-9b10-bfb6c0327d9a"
+}

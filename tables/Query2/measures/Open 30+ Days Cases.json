@@ -1,0 +1,6 @@
+{
+  "name": "Open 30+ Days Cases",
+  "expression": "CALCULATE([Unpaid Cases], FILTER(Query2, DATEDIFF(Query2[sale_date], TODAY(), DAY) > 30 && (ISBLANK(Query2[moved_to_client]) || Query2[moved_to_client] = 0)))",
+  "formatString": "#,0",
+  "lineageTag": "07e67849-1bdc-42a3-a29f-851fb93248b3"
+}

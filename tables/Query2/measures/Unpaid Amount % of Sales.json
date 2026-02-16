@@ -1,0 +1,6 @@
+{
+  "name": "Unpaid Amount % of Sales",
+  "expression": "DIVIDE([Unpaid Amount], [Total Sales Amount])",
+  "formatString": "0.00%",
+  "lineageTag": "678db6f7-c58f-4c4b-b5f3-0945bf97ff46"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Priority Score",
+  "expression": "0.45 * [Normalized Amount] + 0.30 * [Normalized Age] + 0.25 * [Normalized Suspicion]",
+  "formatString": "0.000",
+  "lineageTag": "5daec1ba-d49b-4066-aef4-ce2d7be4c0ed"
+}

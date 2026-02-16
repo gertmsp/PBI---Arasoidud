@@ -1,0 +1,6 @@
+{
+  "name": "Normalized Suspicion",
+  "expression": "[Suspicious Amount Rate]",
+  "formatString": "0.00",
+  "lineageTag": "5d070a83-de04-44e1-bb70-9405b3c7fa68"
+}

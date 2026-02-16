@@ -1,0 +1,6 @@
+{
+  "name": "Suspicious Cases",
+  "expression": "CALCULATE([Unpaid Cases], Query2[is_malicious] = 1)",
+  "formatString": "#,0",
+  "lineageTag": "549de21c-79b4-4329-91a7-edd91b092632"
+}

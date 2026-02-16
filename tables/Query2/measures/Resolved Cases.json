@@ -1,0 +1,6 @@
+{
+  "name": "Resolved Cases",
+  "expression": "CALCULATE([Unpaid Cases], FILTER(Query2, NOT(ISBLANK(Query2[moved_to_client])) && Query2[moved_to_client] <> 0))",
+  "formatString": "#,0",
+  "lineageTag": "75471948-aa0b-42f1-8d55-fdfff44e7663"
+}
