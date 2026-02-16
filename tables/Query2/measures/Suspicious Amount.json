@@ -1,0 +1,6 @@
+{
+  "name": "Suspicious Amount",
+  "expression": "CALCULATE([Unpaid Amount], Query2[is_malicious] = 1)",
+  "formatString": "#,0.00",
+  "lineageTag": "15213b3a-fc99-4143-917f-aeb7b0437031"
+}

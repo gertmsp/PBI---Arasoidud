@@ -1,0 +1,6 @@
+{
+  "name": "Unpaid Qty",
+  "expression": "SUM(Query2[qty])",
+  "formatString": "#,0.00",
+  "lineageTag": "b6dd41f2-7cae-4539-b1df-1066510e9bb8"
+}

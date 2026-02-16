@@ -1,0 +1,6 @@
+{
+  "name": "Normalized Age",
+  "expression": "VAR MaxAge = MAXX(ALLSELECTED(Query2[invoice]), CALCULATE([Average Open Age Days])) RETURN DIVIDE([Average Open Age Days], MaxAge)",
+  "formatString": "0.00",
+  "lineageTag": "d8def9bf-2aca-406f-ab71-e756a54484b6"
+}

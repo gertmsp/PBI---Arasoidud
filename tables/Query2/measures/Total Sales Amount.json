@@ -1,0 +1,6 @@
+{
+  "name": "Total Sales Amount",
+  "expression": "SUM('eolerex fin_unit_card_sale'[amount])",
+  "formatString": "#,0.00",
+  "lineageTag": "64f9ebdc-d088-45fe-80c0-def0f2c01231"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Unpaid Amount",
+  "expression": "SUM(Query2[transaction_sum])",
+  "formatString": "#,0.00",
+  "lineageTag": "30374aaf-57b6-4de8-87f0-b2df771c448f"
+}

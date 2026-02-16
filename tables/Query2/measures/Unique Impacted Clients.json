@@ -1,0 +1,6 @@
+{
+  "name": "Unique Impacted Clients",
+  "expression": "DISTINCTCOUNT(Query2[client_id])",
+  "formatString": "#,0",
+  "lineageTag": "c7a67380-90c7-4fff-89c9-daab2aeac1f2"
+}

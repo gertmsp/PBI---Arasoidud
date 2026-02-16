@@ -1,0 +1,6 @@
+{
+  "name": "Unpaid Cases",
+  "expression": "DISTINCTCOUNT(Query2[invoice])",
+  "formatString": "#,0",
+  "lineageTag": "43448259-e42f-4918-aacc-f7fb42eb4c41"
+}

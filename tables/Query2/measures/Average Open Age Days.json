@@ -1,0 +1,6 @@
+{
+  "name": "Average Open Age Days",
+  "expression": "AVERAGEX(FILTER(Query2, ISBLANK(Query2[moved_to_client]) || Query2[moved_to_client] = 0), DATEDIFF(Query2[sale_date], TODAY(), DAY))",
+  "formatString": "#,0",
+  "lineageTag": "9380f9d2-dae3-493f-bf5d-8f1cbd4d2931"
+}

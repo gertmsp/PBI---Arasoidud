@@ -1,0 +1,6 @@
+{
+  "name": "Average Unpaid per Case",
+  "expression": "DIVIDE([Unpaid Amount], [Unpaid Cases])",
+  "formatString": "#,0.00",
+  "lineageTag": "91ade28c-8175-44a7-9097-4e0d7f9a4cf6"
+}

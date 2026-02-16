@@ -1,0 +1,6 @@
+{
+  "name": "Unique Impacted Units",
+  "expression": "DISTINCTCOUNT(Query2[unit_id])",
+  "formatString": "#,0",
+  "lineageTag": "b232844f-b4d2-40bd-b4d5-90f1641e2781"
+}
