@@ -1,0 +1,7 @@
+{
+  "name": "Unique Impacted Clients",
+  "expression": "CALCULATE(DISTINCTCOUNT(Unit_card_transactions[client_id]), Unit_card_transactions[transaction_sum] >= 0, Unit_card_transactions[accnr] <> \"V999\", Unit_card_transactions[checked_by_region] <> 6, Unit_card_transactions[moved_to_client] IN {0, 6})",
+  "formatString": "#,0",
+  "displayFolder": "01 KPI",
+  "lineageTag": "98e463c5-02ba-4ab2-af14-bf68f942ce0e"
+}

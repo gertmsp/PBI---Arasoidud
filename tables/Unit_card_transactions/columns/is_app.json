@@ -1,0 +1,14 @@
+{
+  "name": "is_app",
+  "dataType": "int64",
+  "sourceColumn": "is_app",
+  "formatString": "0",
+  "lineageTag": "07e666fa-eaae-4442-b315-7a00775b9d92",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

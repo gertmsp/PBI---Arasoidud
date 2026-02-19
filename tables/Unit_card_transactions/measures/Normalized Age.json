@@ -1,0 +1,7 @@
+{
+  "name": "Normalized Age",
+  "expression": "VAR MaxAge = MAXX(ALLSELECTED(Unit_card_transactions[invoice]), CALCULATE([Average Open Age Days])) RETURN DIVIDE([Average Open Age Days], MaxAge)",
+  "formatString": "0.00",
+  "displayFolder": "04 Prioritization",
+  "lineageTag": "97069c1e-81e6-4de7-bee8-fb77d4431b01"
+}

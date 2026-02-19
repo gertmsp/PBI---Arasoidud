@@ -1,6 +1,6 @@
 {
   "name": "3932bd7a-51e1-4d53-b6bf-b454d97fb27a",
-  "fromTable": "Query2",
+  "fromTable": "Unit_card_transactions",
   "fromColumn": "sale_datetime",
   "toTable": "LocalDateTable_dbc215d2-21ca-4481-a75f-9d2d05850457",
   "toColumn": "Date",

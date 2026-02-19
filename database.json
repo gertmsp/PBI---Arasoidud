@@ -13,7 +13,7 @@
     "annotations": [
       {
         "name": "PBI_QueryOrder",
-        "value": "[\"eolerex fin_unit_card_sale\",\"eolerex fin_unit\",\"Query2\",\"checked_by_region\",\"moved_to_client\",\"eolerex fin_crm_client\"]"
+        "value": "[\"eolerex fin_unit_card_sale\",\"eolerex fin_unit\",\"Unit_card_transactions\",\"checked_by_region\",\"moved_to_client\",\"eolerex fin_crm_client\"]"
       },
       {
         "name": "__PBI_TimeIntelligenceEnabled",

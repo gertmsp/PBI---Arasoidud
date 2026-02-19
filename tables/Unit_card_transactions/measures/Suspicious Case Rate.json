@@ -1,0 +1,7 @@
+{
+  "name": "Suspicious Case Rate",
+  "expression": "DIVIDE([Suspicious Cases], [Unpaid Cases])",
+  "formatString": "0.00%",
+  "displayFolder": "02 Fraud",
+  "lineageTag": "dbf693a9-0028-4f87-ade1-0184bbc4fe64"
+}

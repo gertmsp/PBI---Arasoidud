@@ -1,0 +1,7 @@
+{
+  "name": "Average Open Age Days",
+  "expression": "AVERAGEX(FILTER(Unit_card_transactions, Unit_card_transactions[transaction_sum] >= 0 && Unit_card_transactions[accnr] <> \"V999\" && Unit_card_transactions[checked_by_region] <> 6 && Unit_card_transactions[moved_to_client] = 0), DATEDIFF(Unit_card_transactions[sale_date], TODAY(), DAY))",
+  "formatString": "#,0",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "afc7184c-a988-4a82-82fa-15ae333a6bd8"
+}

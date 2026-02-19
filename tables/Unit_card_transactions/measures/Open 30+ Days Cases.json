@@ -1,0 +1,20 @@
+{
+  "name": "Open 30+ Days Cases",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(Unit_card_transactions[invoice]),",
+    "    FILTER(",
+    "        Unit_card_transactions,",
+    "        Unit_card_transactions[transaction_sum] >= 0 &&",
+    "        Unit_card_transactions[accnr] <> \"V999\" && ",
+    "        Unit_card_transactions[checked_by_region] <> 6 && ",
+    "        Unit_card_transactions[moved_to_client] = 0 && ",
+    "        DATEDIFF(Unit_card_transactions[sale_date], TODAY(), DAY) > 30",
+    "        )",
+    ")"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "27a93e1b-8a58-4582-82eb-9cb7b34e88d0"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Unpaid Qty",
+  "expression": "CALCULATE(SUM(Unit_card_transactions[qty]), Unit_card_transactions[transaction_sum] >= 0, Unit_card_transactions[accnr] <> \"V999\", Unit_card_transactions[checked_by_region] <> 6, Unit_card_transactions[moved_to_client] IN {0, 6})",
+  "formatString": "#,0.00",
+  "displayFolder": "01 KPI",
+  "lineageTag": "796c9d62-fa03-44e6-a6bc-1ab2b4330c65"
+}

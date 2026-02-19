@@ -1,0 +1,7 @@
+{
+  "name": "22e27cd3-8c75-0a5a-4f00-0e1beb6afb9a",
+  "fromTable": "Unit_card_transactions",
+  "fromColumn": "client_id",
+  "toTable": "eolerex fin_crm_client",
+  "toColumn": "client_id"
+}

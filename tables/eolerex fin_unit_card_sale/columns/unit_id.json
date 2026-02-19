@@ -4,7 +4,7 @@
   "sourceColumn": "unit_id",
   "formatString": "0",
   "lineageTag": "8822c684-b0ca-45c2-aed3-a065716c61d6",
-  "summarizeBy": "none",
+  "summarizeBy": "sum",
   "annotations": [
     {
       "name": "SummarizationSetBy",

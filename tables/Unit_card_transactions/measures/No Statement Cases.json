@@ -1,0 +1,7 @@
+{
+  "name": "No Statement Cases",
+  "expression": "CALCULATE([Unpaid Cases], FILTER(Unit_card_transactions, ISBLANK(Unit_card_transactions[statement_no]) || Unit_card_transactions[statement_no] = \"\"))",
+  "formatString": "#,0",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "8be0ac47-c555-42fa-95b0-0109b70d488a"
+}

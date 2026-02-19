@@ -1,0 +1,7 @@
+{
+  "name": "420bfc3a-50ea-4ce8-2ef9-f9a3b92db836",
+  "fromTable": "Unit_card_transactions",
+  "fromColumn": "sale_date",
+  "toTable": "Dates",
+  "toColumn": "Date"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ed5e99f3-2ee6-f3e7-47b8-de59b56c1ed1",
+  "fromTable": "Unit_card_transactions",
+  "fromColumn": "unit_id",
+  "toTable": "eolerex fin_unit",
+  "toColumn": "unit_id"
+}

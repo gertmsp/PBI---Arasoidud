@@ -1,0 +1,7 @@
+{
+  "name": "Unique Impacted Units",
+  "expression": "CALCULATE(DISTINCTCOUNT(Unit_card_transactions[unit_id]), Unit_card_transactions[transaction_sum] >= 0, Unit_card_transactions[accnr] <> \"V999\", Unit_card_transactions[checked_by_region] <> 6, Unit_card_transactions[moved_to_client] IN {0, 6})",
+  "formatString": "#,0",
+  "displayFolder": "01 KPI",
+  "lineageTag": "dbe65d34-88b9-426d-b1a3-aa60359981cd"
+}

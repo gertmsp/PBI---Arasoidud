@@ -1,0 +1,7 @@
+{
+  "name": "Average Unpaid per Case",
+  "expression": "DIVIDE([Unpaid Amount], [Unpaid Cases])",
+  "formatString": "#,0.00",
+  "displayFolder": "01 KPI",
+  "lineageTag": "7d5a94f5-c21a-4733-9cb6-fee3544b97d5"
+}

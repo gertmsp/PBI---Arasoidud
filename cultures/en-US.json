@@ -3092,7 +3092,7 @@
         "query_2": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2"
+              "ConceptualEntity": "Unit_card_transactions"
             }
           },
           "State": "Generated",
@@ -3114,7 +3114,7 @@
         "query_2.unit_id": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "unit_id"
             }
           },
@@ -3243,7 +3243,7 @@
         "query_2.client_id": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "client_id"
             }
           },
@@ -3372,7 +3372,7 @@
         "query_2.sale_id": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "sale_id"
             }
           },
@@ -3501,7 +3501,7 @@
         "query_2.client_id_2": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "client_id2"
             }
           },
@@ -3610,7 +3610,7 @@
         "query_2.client_name": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "client_name"
             }
           },
@@ -3749,7 +3749,7 @@
         "query_2.accnr": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "accnr"
             }
           },
@@ -3765,7 +3765,7 @@
         "query_2.card_number": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "card_number"
             }
           },
@@ -3798,7 +3798,7 @@
         "query_2.invoice": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "invoice"
             }
           },
@@ -3864,7 +3864,7 @@
         "query_2.qty": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "qty"
             }
           },
@@ -3890,7 +3890,7 @@
         "query_2.transaction_sum": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "transaction_sum"
             }
           },
@@ -3973,7 +3973,7 @@
         "query_2.price": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "price"
             }
           },
@@ -4089,7 +4089,7 @@
         "query_2.itemid": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "itemid"
             }
           },
@@ -4115,7 +4115,7 @@
         "query_2.item": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "item"
             }
           },
@@ -4201,7 +4201,7 @@
         "query_2.sale_date": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "sale_date"
             }
           },
@@ -4261,7 +4261,7 @@
         "query_2.sale_date.date_hierarchy": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_date",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy"
@@ -4286,7 +4286,7 @@
         "query_2.sale_date.year": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_date",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4402,7 +4402,7 @@
         "query_2.sale_date.quarter": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_date",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4518,7 +4518,7 @@
         "query_2.sale_date.month": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_date",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4634,7 +4634,7 @@
         "query_2.sale_date.day": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_date",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4710,7 +4710,7 @@
         "query_2.sale_datetime": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "sale_datetime"
             }
           },
@@ -4740,7 +4740,7 @@
         "query_2.sale_datetime.date_hierarchy": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_datetime",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy"
@@ -4765,7 +4765,7 @@
         "query_2.sale_datetime.year": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_datetime",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4810,7 +4810,7 @@
         "query_2.sale_datetime.quarter": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_datetime",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4855,7 +4855,7 @@
         "query_2.sale_datetime.month": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_datetime",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4900,7 +4900,7 @@
         "query_2.sale_datetime.day": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "VariationSource": "sale_datetime",
               "VariationSet": "Variation",
               "Hierarchy": "Date Hierarchy",
@@ -4925,7 +4925,7 @@
         "query_2.emplid": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "emplid"
             }
           },
@@ -4941,7 +4941,7 @@
         "query_2.checked_by_region": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "checked_by_region"
             }
           },
@@ -5037,7 +5037,7 @@
         "query_2.moved_to_client": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "moved_to_client"
             }
           },
@@ -5153,7 +5153,7 @@
         "query_2.sent_to_security_dep": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "sent_to_security_dep"
             }
           },
@@ -5276,7 +5276,7 @@
         "query_2.statement_no": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "statement_no"
             }
           },
@@ -5319,7 +5319,7 @@
         "query_2.unit_id_2": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "unit_id2"
             }
           },
@@ -5448,7 +5448,7 @@
         "query_2.connected_to_invoice": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "connected_to_invoice"
             }
           },
@@ -5511,7 +5511,7 @@
         "query_2.connected_transaction": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "connected_transactions"
             }
           },
@@ -5640,7 +5640,7 @@
         "query_2.is_malicious": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "is_malicious"
             }
           },
@@ -5663,7 +5663,7 @@
         "query_2.is_app": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "is_app"
             }
           },
@@ -5692,7 +5692,7 @@
         "query_2.region_id": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "region_id"
             }
           },
@@ -5821,7 +5821,7 @@
         "query_2.noom_comment": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "noom_comment"
             }
           },
@@ -6692,7 +6692,7 @@
         "query_2.kogus": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "Kogus"
             }
           },
@@ -6708,7 +6708,7 @@
         "query_2.tehinguid": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "Tehinguid"
             }
           },
@@ -6724,7 +6724,7 @@
         "query_2.summa": {
           "Definition": {
             "Binding": {
-              "ConceptualEntity": "Query2",
+              "ConceptualEntity": "Unit_card_transactions",
               "ConceptualProperty": "Summa"
             }
           },
@@ -6732,153 +6732,6 @@
           "Terms": [
             {
               "summa": {
-                "State": "Generated"
-              }
-            }
-          ]
-        },
-        "moodikud": {
-          "Definition": {
-            "Binding": {
-              "ConceptualEntity": "Moodikud"
-            }
-          },
-          "State": "Generated",
-          "Terms": [
-            {
-              "moodikud": {
-                "State": "Generated"
-              }
-            }
-          ]
-        },
-        "moodikud.column": {
-          "Definition": {
-            "Binding": {
-              "ConceptualEntity": "Moodikud",
-              "ConceptualProperty": "Column"
-            }
-          },
-          "State": "Generated",
-          "Terms": [
-            {
-              "column": {
-                "State": "Generated"
-              }
-            },
-            {
-              "pilaster": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.491
-              }
-            },
-            {
-              "pier": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.491
-              }
-            },
-            {
-              "pillar": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "post": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "support": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "stake": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "pole": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "buttress": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "underpinning": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.476
-              }
-            },
-            {
-              "contribution": {
-                "Type": "Noun",
-                "State": "Suggested",
-                "Source": {
-                  "Agent": "Thesaurus"
-                },
-                "Weight": 0.466
-              }
-            }
-          ]
-        },
-        "moodikud.ärasõidud": {
-          "Definition": {
-            "Binding": {
-              "ConceptualEntity": "Moodikud",
-              "ConceptualProperty": "Ärasõidud"
-            }
-          },
-          "State": "Generated",
-          "Terms": [
-            {
-              "ärasõidud": {
                 "State": "Generated"
               }
             }
@@ -8180,7 +8033,7 @@
         },
         "query_2_has_checked_by_region": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -8246,7 +8099,7 @@
         },
         "query_2_has_moved_to_client": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -8887,42 +8740,9 @@
             }
           ]
         },
-        "moodikud_has_column": {
-          "Binding": {
-            "ConceptualEntity": "Moodikud"
-          },
-          "State": "Generated",
-          "Roles": {
-            "moodikud": {
-              "Target": {
-                "Entity": "moodikud"
-              }
-            },
-            "moodikud.column": {
-              "Target": {
-                "Entity": "moodikud.column"
-              }
-            }
-          },
-          "Phrasings": [
-            {
-              "Attribute": {
-                "Subject": {
-                  "Role": "moodikud"
-                },
-                "Object": {
-                  "Role": "moodikud.column"
-                }
-              },
-              "State": "Generated",
-              "Weight": 0.99,
-              "ID": "moodikuds_have_columns"
-            }
-          ]
-        },
         "query_2_has_summa": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -8955,7 +8775,7 @@
         },
         "query_2_has_tehinguid": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -8988,7 +8808,7 @@
         },
         "query_2_has_kogus": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9351,7 +9171,7 @@
         },
         "query_2_has_noom_comment": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9384,7 +9204,7 @@
         },
         "query_2_has_region_id": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9417,7 +9237,7 @@
         },
         "query_2_has_is_app": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9450,7 +9270,7 @@
         },
         "query_2_has_is_malicious": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9503,7 +9323,7 @@
         },
         "query_2_has_connected_transaction": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9536,7 +9356,7 @@
         },
         "query_2_has_connected_to_invoice": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9620,7 +9440,7 @@
         },
         "query_2_has_unit_id_2": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9653,7 +9473,7 @@
         },
         "query_2_has_statement_no": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9686,7 +9506,7 @@
         },
         "query_2_has_sent_to_security_dep": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9719,7 +9539,7 @@
         },
         "query_2_has_emplid": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9752,7 +9572,7 @@
         },
         "query_2_has_sale_datetime": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9785,7 +9605,7 @@
         },
         "query_2_has_sale_date": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9818,7 +9638,7 @@
         },
         "query_2_has_item": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9851,7 +9671,7 @@
         },
         "query_2_has_itemid": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9884,7 +9704,7 @@
         },
         "query_2_has_price": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9944,7 +9764,7 @@
         },
         "query_2_has_transaction_sum": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -9977,7 +9797,7 @@
         },
         "query_2_has_qty": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10010,7 +9830,7 @@
         },
         "query_2_has_invoice": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10043,7 +9863,7 @@
         },
         "query_2_has_card_number": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10076,7 +9896,7 @@
         },
         "query_2_has_accnr": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10109,7 +9929,7 @@
         },
         "query_2_has_client_name": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10142,7 +9962,7 @@
         },
         "query_2_has_client_id_2": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10175,7 +9995,7 @@
         },
         "query_2_has_sale_id": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10208,7 +10028,7 @@
         },
         "query_2_has_client_id": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -10241,7 +10061,7 @@
         },
         "query_2_has_unit_id": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11117,7 +10937,7 @@
         },
         "query_2_in_checked_by_region": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11324,7 +11144,7 @@
         },
         "query_2_sale_date_has_date_hierarchy": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11357,7 +11177,7 @@
         },
         "query_2_sale_date_date_hierarchy_has_query_2_sale_date_year": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11390,7 +11210,7 @@
         },
         "query_2_sale_date_date_hierarchy_has_query_2_sale_date_quarter": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11423,7 +11243,7 @@
         },
         "query_2_sale_date_date_hierarchy_has_query_2_sale_date_month": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11456,7 +11276,7 @@
         },
         "query_2_sale_date_date_hierarchy_has_query_2_sale_date_day": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11489,7 +11309,7 @@
         },
         "query_2_sale_datetime_has_date_hierarchy": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11522,7 +11342,7 @@
         },
         "query_2_sale_datetime_date_hierarchy_has_query_2_sale_datetime_year": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11555,7 +11375,7 @@
         },
         "query_2_sale_datetime_date_hierarchy_has_query_2_sale_datetime_quarter": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11588,7 +11408,7 @@
         },
         "query_2_sale_datetime_date_hierarchy_has_query_2_sale_datetime_month": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {
@@ -11621,7 +11441,7 @@
         },
         "query_2_sale_datetime_date_hierarchy_has_query_2_sale_datetime_day": {
           "Binding": {
-            "ConceptualEntity": "Query2"
+            "ConceptualEntity": "Unit_card_transactions"
           },
           "State": "Generated",
           "Roles": {

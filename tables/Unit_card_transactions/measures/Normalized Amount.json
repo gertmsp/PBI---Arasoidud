@@ -1,0 +1,7 @@
+{
+  "name": "Normalized Amount",
+  "expression": "VAR MaxAmount = MAXX(ALLSELECTED(Unit_card_transactions[invoice]), CALCULATE([Unpaid Amount])) RETURN DIVIDE([Unpaid Amount], MaxAmount)",
+  "formatString": "0.00",
+  "displayFolder": "04 Prioritization",
+  "lineageTag": "e007232e-9810-42d2-803d-dd957a39035b"
+}

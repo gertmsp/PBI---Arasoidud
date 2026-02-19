@@ -1,0 +1,7 @@
+{
+  "name": "Unpaid Amount % of Sales",
+  "expression": "DIVIDE([Unpaid Amount], [Total Sales Amount])",
+  "formatString": "0.00%",
+  "displayFolder": "01 KPI",
+  "lineageTag": "c2f93d4b-bd99-46f1-95af-371cb630144e"
+}

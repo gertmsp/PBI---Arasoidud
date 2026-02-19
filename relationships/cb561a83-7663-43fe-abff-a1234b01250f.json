@@ -1,0 +1,8 @@
+{
+  "name": "cb561a83-7663-43fe-abff-a1234b01250f",
+  "fromTable": "Dates",
+  "fromColumn": "Date",
+  "toTable": "LocalDateTable_d7733da7-0e32-42b0-ada9-86a168fbc7da",
+  "toColumn": "Date",
+  "joinOnDateBehavior": "datePartOnly"
+}

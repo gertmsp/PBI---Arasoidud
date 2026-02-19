@@ -5,9 +5,9 @@
     "",
     "CALCULATE(",
     "    SELECTEDMEASURE(),",
-    "    Query2[transaction_sum] >= 0,",
-    "    Query2[statement_no] <> BLANK(),",
-    "    Query2[accnr] <> \"V999\"",
+    "    Unit_card_transactions[transaction_sum] >= 0,",
+    "    Unit_card_transactions[statement_no] <> BLANK(),",
+    "    Unit_card_transactions[accnr] <> \"V999\"",
     ")"
   ],
   "ordinal": 2

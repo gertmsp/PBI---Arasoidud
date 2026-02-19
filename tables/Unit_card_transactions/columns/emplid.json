@@ -1,0 +1,13 @@
+{
+  "name": "emplid",
+  "dataType": "string",
+  "sourceColumn": "emplid",
+  "lineageTag": "a999a428-d690-4269-9103-1af6b9eb6c17",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Tehinguid",
+  "expression": "DISTINCTCOUNT(Unit_card_transactions[invoice])",
+  "formatString": "#,0",
+  "displayFolder": "00 Legacy",
+  "lineageTag": "63e3af7d-f086-4f0d-a757-23bebccf1f58"
+}

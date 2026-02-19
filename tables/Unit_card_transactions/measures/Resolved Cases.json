@@ -1,0 +1,16 @@
+{
+  "name": "Resolved Cases",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(Unit_card_transactions[invoice]), ",
+    "    Unit_card_transactions[transaction_sum] >= 0, ",
+    "    Unit_card_transactions[accnr] <> \"V999\", ",
+    "    Unit_card_transactions[checked_by_region] <> 6, ",
+    "    Unit_card_transactions[moved_to_client] <> 0",
+    "    )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "0e8a368b-07d6-4b4d-b049-dc6d4131b99d"
+}

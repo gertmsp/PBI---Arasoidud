@@ -1,0 +1,7 @@
+{
+  "name": "Suspicious Cases",
+  "expression": "CALCULATE([Unpaid Cases], Unit_card_transactions[is_malicious] = 1)",
+  "formatString": "#,0",
+  "displayFolder": "02 Fraud",
+  "lineageTag": "21dae36d-8aa5-4753-8462-59b12fe31596"
+}

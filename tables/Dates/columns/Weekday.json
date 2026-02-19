@@ -1,0 +1,17 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Weekday",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Weekday]",
+  "formatString": "0",
+  "lineageTag": "c7802c9e-39b1-43b2-a221-59d6921b871b",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

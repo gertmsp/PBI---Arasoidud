@@ -1,0 +1,7 @@
+{
+  "name": "No Solution Cases",
+  "expression": "CALCULATE([Unpaid Cases], Unit_card_transactions[moved_to_client] = 0)",
+  "formatString": "#,0",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "2b1d1ca3-d986-4ae7-94ae-f46638b72fd4"
+}

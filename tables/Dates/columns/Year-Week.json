@@ -1,0 +1,16 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Year-Week",
+  "dataType": "string",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Year-Week]",
+  "lineageTag": "5efd67eb-3f60-4539-80b1-7feae4ea1d02",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

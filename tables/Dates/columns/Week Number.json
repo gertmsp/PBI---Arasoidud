@@ -1,0 +1,17 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "Week Number",
+  "dataType": "int64",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[Week Number]",
+  "formatString": "0",
+  "lineageTag": "b0b5989f-56cd-4931-b1e4-56b565536922",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

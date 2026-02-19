@@ -1,0 +1,15 @@
+{
+  "name": "Unpaid Amount",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM(Unit_card_transactions[transaction_sum]), ",
+    "    Unit_card_transactions[transaction_sum] >= 0, ",
+    "    Unit_card_transactions[accnr] <> \"V999\", ",
+    "    Unit_card_transactions[checked_by_region] <> 6, ",
+    "    Unit_card_transactions[moved_to_client] IN {0, 6})"
+  ],
+  "formatString": "#,0.00",
+  "displayFolder": "01 KPI",
+  "lineageTag": "389d640e-3532-4689-a97a-10e91240e0a4"
+}

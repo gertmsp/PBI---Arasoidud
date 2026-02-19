@@ -1,0 +1,14 @@
+{
+  "name": "region_id",
+  "dataType": "int64",
+  "sourceColumn": "region_id",
+  "formatString": "0",
+  "lineageTag": "b6c89142-2b4a-450f-a1ac-0fd49d056fec",
+  "summarizeBy": "sum",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

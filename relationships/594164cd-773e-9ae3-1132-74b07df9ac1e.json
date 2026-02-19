@@ -1,6 +1,6 @@
 {
   "name": "594164cd-773e-9ae3-1132-74b07df9ac1e",
-  "fromTable": "Query2",
+  "fromTable": "Unit_card_transactions",
   "fromColumn": "checked_by_region",
   "toTable": "checked_by_region",
   "toColumn": "checked_by_region"

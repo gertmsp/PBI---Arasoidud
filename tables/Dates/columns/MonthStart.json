@@ -1,0 +1,28 @@
+{
+  "type": "calculatedTableColumn",
+  "name": "MonthStart",
+  "dataType": "dateTime",
+  "isNameInferred": true,
+  "isDataTypeInferred": true,
+  "sourceColumn": "[MonthStart]",
+  "formatString": "General Date",
+  "lineageTag": "c41cf520-3b68-4cb5-a8d8-219952154507",
+  "summarizeBy": "none",
+  "variations": [
+    {
+      "name": "Variation",
+      "relationship": "fbcee607-263e-499b-9d9d-5f8ab1517176",
+      "defaultHierarchy": {
+        "table": "LocalDateTable_f1580543-fb32-4a79-b8aa-94e6c989c69c",
+        "hierarchy": "Date Hierarchy"
+      },
+      "isDefault": true
+    }
+  ],
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}

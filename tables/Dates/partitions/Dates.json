@@ -1,0 +1,35 @@
+{
+  "name": "Dates",
+  "mode": "import",
+  "source": {
+    "type": "calculated",
+    "expression": [
+      "",
+      "VAR StartDate = DATE(YEAR(MIN(Unit_card_transactions[sale_date])), MONTH(MIN(Unit_card_transactions[sale_date])), 1)",
+      "VAR EndDate = EOMONTH(DATE(YEAR(MAX(Unit_card_transactions[sale_date])), MONTH(MAX(Unit_card_transactions[sale_date])), 1),0)",
+      "VAR DateList =",
+      "    ADDCOLUMNS (",
+      "        CALENDAR(StartDate, EndDate),",
+      "        \"Year\", YEAR([Date]),",
+      "        \"Month Number\", MONTH([Date]),",
+      "        \"Month Name\", FORMAT([Date], \"MMMM\"),",
+      "        \"Day\", DAY([Date]),",
+      "        \"Weekday\", WEEKDAY([Date], 2),",
+      "        \"Weekday Name\", FORMAT([Date], \"dddd\"),",
+      "        \"Quartal\", FORMAT([Date], \"q\"),",
+      "        \"Year-Month\", FORMAT([Date], \"YYYY-MM\"),",
+      "        \"YearMonth\", 100 * YEAR([Date]) + MONTH([Date]),",
+      "        \"Month-Year\", FORMAT([Date], \"M-YYYY\"),",
+      "        \"Week Number\", WEEKNUM([Date], 21),",
+      "        \"Year-Week\",",
+      "            FORMAT(YEAR([Date] - WEEKDAY([Date], 2) + 3), \"0000\") & \"-\" &",
+      "            FORMAT(WEEKNUM([Date] - WEEKDAY([Date], 2) + 4, 21), \"00\"),",
+      "        \"MonthStart\", DATE(YEAR([Date]), MONTH([Date]), 1)",
+      "",
+      "    )",
+      "RETURN",
+      "    DateList",
+      ""
+    ]
+  }
+}

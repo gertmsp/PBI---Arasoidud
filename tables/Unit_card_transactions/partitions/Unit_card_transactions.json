@@ -1,0 +1,15 @@
+{
+  "name": "Unit_card_transactions",
+  "mode": "import",
+  "source": {
+    "type": "m",
+    "expression": [
+      "let",
+      "    Source = MySQL.Database(\"sql.olerex.ee\", \"eolerex\", [ReturnSingleDatabase=true, Query=\"SELECT #(lf)    t1.unit_id,#(lf)    t1.client_id,#(lf)    t1.sale_id, #(lf)    t1.client_id, #(lf)    t1.card_number, #(lf)    t1.invoice, #(lf)    t1.qty, #(lf)    SUM(t1.amount) AS transaction_sum, #(lf)    (t1.amount / t1.qty) AS price,#(lf)    t1.itemid, #(lf)    t2.name AS item, #(lf)    t1.sale_date, #(lf)    t1.sale_datetime, #(lf)    t1.emplid, #(lf)    IF(t1.checked_by_region = 0, \"\"\"\", t1.checked_by_region) AS checked_by_region,#(lf)    IF(t1.moved_to_client = 0, \"\"\"\", t1.moved_to_client) AS moved_to_client,#(lf)    t1.sent_to_security_dep, #(lf)    t1.statement_no, #(lf)    t1.unit_id, #(lf)    t1.connected_to_invoice, #(lf)    IFNULL(t1.connected_to_invoice, 0) AS connected_transactions,#(lf)    t1.is_malicious,#(lf)    t1.is_app,#(lf)    t3.region_id, #(lf)    t5.name AS client_name,#(lf)    t5.accnr,#(lf)    \"\"\"\" AS noom_comment#(lf)FROM fin_unit_card_sale t1#(lf)LEFT JOIN fin_crm_item t2 USING (itemid)#(lf)LEFT JOIN fin_unit t3 ON (t1.unit_id = t3.unit_id)#(lf)LEFT JOIN fin_crm_sale t4 #(lf)    ON (t4.invoice = t1.invoice #(lf)        AND t4.sale_date = t1.sale_date #(lf)        AND t4.itemid = t1.itemid)#(lf)LEFT JOIN fin_crm_client t5 #(lf)    ON (t5.accnr = t4.client_id)#(lf)WHERE t1.sale_date >= '2025-01-01'#(lf)GROUP BY t1.invoice#(lf)ORDER BY t1.sale_date;#(lf)\"]),",
+      "    #\"Replaced Value\" = Table.ReplaceValue(Source,\"\",\"0\",Replacer.ReplaceValue,{\"checked_by_region\", \"moved_to_client\"}),",
+      "    #\"Changed Type\" = Table.TransformColumnTypes(#\"Replaced Value\",{{\"moved_to_client\", Int64.Type}, {\"checked_by_region\", Int64.Type}})",
+      "in",
+      "    #\"Changed Type\""
+    ]
+  }
+}

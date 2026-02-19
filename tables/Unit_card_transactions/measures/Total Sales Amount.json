@@ -1,0 +1,7 @@
+{
+  "name": "Total Sales Amount",
+  "expression": "CALCULATE(SUM('eolerex fin_unit_card_sale'[amount]), 'eolerex fin_unit_card_sale'[amount] >= 0)",
+  "formatString": "#,0.00",
+  "displayFolder": "01 KPI",
+  "lineageTag": "0228889b-69b8-4595-8266-22afcb3a003a"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Unpaid Cases",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(Unit_card_transactions[invoice]), ",
+    "    Unit_card_transactions[transaction_sum] >= 0, ",
+    "    Unit_card_transactions[accnr] <> \"V999\", ",
+    "    Unit_card_transactions[checked_by_region] <> 6, ",
+    "    Unit_card_transactions[moved_to_client] IN {0, 6}",
+    "    )"
+  ],
+  "formatString": "#,0",
+  "displayFolder": "01 KPI",
+  "lineageTag": "53fe5702-5fd7-42f2-bbb0-155833d5003e"
+}

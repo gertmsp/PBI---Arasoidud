@@ -1,8 +1,6 @@
 {
   "type": "calculated",
   "name": "Client Name",
-  "dataType": "string",
-  "isDataTypeInferred": true,
   "expression": [
     "",
     "RELATED('eolerex fin_crm_client'[name])",

@@ -1,0 +1,7 @@
+{
+  "name": "Resolution Rate",
+  "expression": "DIVIDE([Resolved Cases], [Unpaid Cases])",
+  "formatString": "0.00%",
+  "displayFolder": "03 Resolution",
+  "lineageTag": "e415c503-d81c-4521-8fa0-3f4745b53b71"
+}

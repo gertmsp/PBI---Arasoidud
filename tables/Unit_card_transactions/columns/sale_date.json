@@ -1,0 +1,14 @@
+{
+  "name": "sale_date",
+  "dataType": "dateTime",
+  "sourceColumn": "sale_date",
+  "formatString": "General Date",
+  "lineageTag": "adc43918-3967-4b2c-9c19-cd38a555b08d",
+  "summarizeBy": "none",
+  "annotations": [
+    {
+      "name": "SummarizationSetBy",
+      "value": "Automatic"
+    }
+  ]
+}
